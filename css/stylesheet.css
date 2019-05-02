@@ -1,3 +1,84 @@
-p {
-    color: teal;
+html,
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+p,
+form,
+input,
+div {
+  margin: 0;
+  padding: 0;
+  font-family: "helvetica neue", sans-serif;
 }
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Barlow', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+*/
+
+/* header */
+
+header {
+  background-color:white;
+  height: 100vh;
+}
+
+.text_wrapper__header {
+ vertical-align: top;
+ align: center;
+}
+
+
+p {
+ color: teal;
+    
+}
+
+
+h1 {
+  margin: 50px;
+  height: 100vh;
+  align: center;
+  vertical-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2em;
+  letter-spacing: .8em;
+  display: inline-block;
+  
+}
+
+
+.intro {
+  vertical-align: top;
+  height: 100vh;
+  background-color: white;
+}
+
+.skills {
+  background-color:#7A36FF;
+  height: 100vh;
+ 
+}
+.projects {
+  background-color:#EF3B3E;
+  height: 100vh;
+}
+
+.about {
+  background-color: #4A4CF7;
+  height: 100vh;
+}
+
+.artwork{
+  background-color: #4A4CF7;
+  height: 100vh;
+}
+
+
+
