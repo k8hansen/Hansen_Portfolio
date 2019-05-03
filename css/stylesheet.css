@@ -20,13 +20,45 @@ font-family: 'Barlow', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Lato', sans-serif;
 font-family: 'Josefin Sans', sans-serif;
+
+border: 5px solid red;
 */
 
-/* header */
+p {
+  line-height: 20px;
+  font-family: 'Barlow', sans-serif;
+  margin-bottom: 10px; 
+     
+ }
+ 
+ h1 {
+   color: white;
+ }
+
+/* -------------- header --------------- */
 
 header {
   background-color:white;
   height: 100vh;
+}
+
+.header {
+  align: center;
+  vertical-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2em;
+  color: black;
+  letter-spacing: .8em;
+  display: inline-block;
+  background-color: white;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: url("https://i.ibb.co/vLhVHBH/kateokokok.jpg");
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
 }
 
 .text_wrapper__header {
@@ -35,49 +67,98 @@ header {
 }
 
 
-p {
- color: teal;
-    
-}
 
 
-h1 {
-  margin: 50px;
-  height: 100vh;
-  align: center;
-  vertical-align: center;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 2em;
-  letter-spacing: .8em;
+/* -------------- buttons --------------- */
+.button {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
   display: inline-block;
-  
+  font-size: 16px;
+  margin: 4px 2px;
 }
+
+.button1 {
+  border-radius: 90px;
+  border: 5px solid #EF3B3E;
+  color: #EF3B3E;
+
+}
+
+
+/* -------------- intro --------------- */
+
 
 
 .intro {
   vertical-align: top;
   height: 100vh;
-  background-color: white;
+
 }
+
+/* -------------- skills --------------- */
 
 .skills {
-  background-color:#7A36FF;
-  height: 100vh;
+  background-color: #3300ff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
  
 }
+
+.skills p{
+  color: white;
+}
+
+.skills_wrapper {
+  min-height: 80%;
+  width: 80%;
+  border: 10px solid white;
+  align: center;
+  display: inline-block;
+  border-radius: 90px;
+  padding: 45px;
+
+}
+
+/* -------------- projects  --------------- */
 .projects {
-  background-color:#EF3B3E;
-  height: 100vh;
+  background-color: #EF3B3E;
+  min-height: 100vh;
 }
 
+
+/* -------------- about  --------------- */
 .about {
-  background-color: #4A4CF7;
-  height: 100vh;
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.about p {
+  color: #179e00;
+}
+
+.about_wrapper {
+  min-height: 80%;
+  width: 80%;
+  border: 10px solid #179e00;
+  align: center;
+  display: inline-block;
+  border-radius: 90px;
+  padding: 45px;
+}
+
+/* -------------- art --------------- */
 .artwork{
-  background-color: #4A4CF7;
-  height: 100vh;
+  background-color: #ff6100;
+  min-height: 100vh;
 }
 
 
