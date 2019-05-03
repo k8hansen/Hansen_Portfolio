@@ -2,7 +2,6 @@ html,
 body,
 ul,
 li,
-h1,
 h2,
 h3,
 p,
@@ -11,7 +10,7 @@ input,
 div {
   margin: 0;
   padding: 0;
-  font-family: "helvetica neue", sans-serif;
+  font-family: 'Barlow', sans-serif;
 }
 
 /*
@@ -27,29 +26,28 @@ border: 5px solid red;
 p {
   line-height: 20px;
   font-family: 'Barlow', sans-serif;
+  font-weight: medium; 
   margin-bottom: 10px; 
      
  }
  
  h1 {
-   color: white;
+   color: black;
+   font-family: 'Lato', sans-serif;
+   font-weight: semi-bold;
+
+
  }
 
 /* -------------- header --------------- */
 
-header {
-  background-color:white;
-  height: 100vh;
-}
+
 
 .header {
-  align: center;
-  vertical-align: center;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-size: 2em;
   color: black;
   letter-spacing: .8em;
-  display: inline-block;
   background-color: white;
   min-height: 100vh;
   min-width: 100vw;
@@ -57,13 +55,19 @@ header {
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
+  display: inline-block;
+
+  
   
   
 }
 
-.text_wrapper__header {
+.text_wrapper__header h1 {
  vertical-align: top;
- align: center;
+ text-align: center;
+ vertical-align: center;
+
 }
 
 
@@ -71,7 +75,8 @@ header {
 
 /* -------------- buttons --------------- */
 .button {
-  background-color: white;
+  background-color: transparent;
+  background-repeat:no-repeat;
   padding: 20px;
   text-align: center;
   text-decoration: none;
@@ -80,12 +85,66 @@ header {
   margin: 4px 2px;
 }
 
+.button:hover {
+  background-color: black;
+  border-radius: 90px;
+  border: 5px solid white;
+  color: white;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  
+}
+
+
+.button_wrapper {
+  text-align: center;
+  display: inline-block;
+  padding-left: 10px;
+  padding-top: 60px;
+  width: 100vw;
+}
+
 .button1 {
   border-radius: 90px;
-  border: 5px solid #EF3B3E;
-  color: #EF3B3E;
-
+  border: 5px solid black;
+  color: black;
+  font-weight: semi-bold;
+  width: 15%;
+ 
 }
+
+
+.button2 {
+  border-radius: 90px;
+  border: 5px solid black;
+  color: black;
+  font-weight: semi-bold;
+  width: 15%;
+}
+
+.button3 {
+  border-radius: 90px;
+  border: 5px solid black;
+  color: black;
+  font-weight: semi-bold;
+  width: 15%;
+}
+
+.button4 {
+  border-radius: 90px;
+  border: 5px solid black;
+  color: black;
+  font-weight: semi-bold;
+  width: 15%;
+}
+.button5 {
+  border-radius: 90px;
+  border: 5px solid black;
+  color: black;
+  font-weight: semi-bold;
+  width: 15%;
+}
+
 
 
 /* -------------- intro --------------- */
@@ -98,7 +157,7 @@ header {
 
 }
 
-/* -------------- skills --------------- */
+/* -------------- About --------------- */
 
 .skills {
   background-color: #3300ff;
@@ -125,14 +184,14 @@ header {
 
 }
 
-/* -------------- projects  --------------- */
+/* -------------- skills --------------- */
 .projects {
   background-color: #EF3B3E;
   min-height: 100vh;
 }
 
 
-/* -------------- about  --------------- */
+/* -------------- web and design--------------- */
 .about {
   background-color: white;
   min-height: 100vh;
@@ -157,9 +216,32 @@ header {
 
 /* -------------- art --------------- */
 .artwork{
-  background-color: #ff6100;
+  background-color: #FFE0BD;
   min-height: 100vh;
 }
+
+/* -------------- contact info  --------------- */
+.contact{
+  background-color: #FFE0BD;
+  min-height: 100vh;
+}
+
+.social-icons {
+  text-align: center;
+}
+
+.social-icons ul{
+  list-style: none;
+  
+}
+.social-icons li {
+  display: inline-block;
+  max-width: 10px;
+  font-size: 1px;
+  margin: 50px;
+}
+
+
 
 
 
