@@ -23,10 +23,15 @@ font-family: 'Josefin Sans', sans-serif;
 border: 5px solid red;
 */
 
+html {
+  scroll-behavior: smooth;
+}
+
 p {
   line-height: 20px;
   font-family: 'Barlow', sans-serif;
   font-weight: medium; 
+  letter-spacing: 1.5px;
   margin-bottom: 10px; 
      
  }
@@ -34,9 +39,17 @@ p {
  h1 {
    color: black;
    font-family: 'Lato', sans-serif;
-   font-weight: semi-bold;
+   font-weight: bold;
+   vertical-align: middle;
+   color:  #3300ff;
+   letter-spacing: 1.5px;
 
+ }
 
+ h2 {
+   color: white;
+   padding-bottom: 20px;
+   letter-spacing: 2px;
  }
 
 /* -------------- header --------------- */
@@ -47,26 +60,29 @@ p {
   font-family: 'Barlow', sans-serif;
   font-size: 2em;
   color: black;
-  letter-spacing: .8em;
   background-color: white;
   min-height: 100vh;
   min-width: 100vw;
-  background-image: url("https://i.ibb.co/vLhVHBH/kateokokok.jpg");
+  background-image: url(/assets/kateblackandwhite.jpg);
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover;
-  text-align: center;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
 
   
   
   
 }
 
-.text_wrapper__header h1 {
- vertical-align: top;
- text-align: center;
- vertical-align: center;
+.text_wrapper__header {
+ vertical-align: bottom;
+ top: 50%;
+left: 50%;
+letter-spacing: .8em;
 
 }
 
@@ -81,7 +97,8 @@ p {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 15px;
+  font-weight: 800;
   margin: 4px 2px;
 }
 
@@ -158,9 +175,25 @@ p {
 
 }
 
+.intro_wrapper {
+padding: 30px;
+text-align: center;
+font-weight: bold;
+letter-spacing: .2 em;
+}
+
+.intro_wrapper p {
+
+font-family: 'Barlow', sans-serif;
+font-size: 25px;
+color: #EF3B3E;
+
+  
+}
+
 /* -------------- About --------------- */
 
-.skills {
+.about {
   background-color: #3300ff;
   min-height: 100vh;
   display: flex;
@@ -170,19 +203,23 @@ p {
  
 }
 
-.skills p{
+.about p{
   color: white;
 }
 
-.skills_wrapper {
+.about_wrapper {
   min-height: 80%;
   width: 80%;
   border: 10px solid white;
   align: center;
-  display: inline-block;
+  display: flex;
   border-radius: 90px;
   padding: 45px;
+}
 
+.about_wrapper__2 {
+  padding-left: 25px;
+  display: inline-block;
 }
 
 /* -------------- skills --------------- */
@@ -191,8 +228,17 @@ p {
   min-height: 100vh;
 }
 
+.skills {
+  list-style: none;
+  padding-left: 25px;
+}
 
-/* -------------- web and design--------------- */
+.skills li {
+  list-style: none;
+}
+
+
+/* -------------- web and design---------------
 .about {
   background-color: white;
   min-height: 100vh;
@@ -214,6 +260,7 @@ p {
   border-radius: 90px;
   padding: 45px;
 }
+ */
 
 /* -------------- art --------------- */
 .artwork{
