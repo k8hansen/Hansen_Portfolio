@@ -294,11 +294,11 @@ position: relative;
 .artwork{
   background-color: #FFE0BD;
   min-height: 100vh;
-
   padding: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 /* -------------- contact info  --------------- */
@@ -320,6 +320,7 @@ position: relative;
   max-width: 10px;
   font-size: 1px;
   margin: 50px;
+ 
 }
 
 .social-icons li:hover {
@@ -352,9 +353,11 @@ color: #EF3B3E;
 
 .projects_wrapper {
   min-height: 80%;
+  min-width: 90%;
   border: 10px solid white;
   border-radius: 90px;
   padding: 45px;
+  flex-shrink: 0;
 }
 
 figure{
@@ -383,4 +386,11 @@ figure figcaption{
   display: flex;
   justify-content: space-between;
   /*flex-wrap: wrap;*/
+}
+
+.copyright {
+  padding-top: 25px;
+  font-size: 14px;
+  color: black;
+  font-weight: 200;
 }
