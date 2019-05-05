@@ -61,8 +61,13 @@ p {
 
  .buttontop {
    position: fixed;
-   bottom: 8%;
-   right: 8%;
+   bottom: 10%;
+   right: 10%;
+   color: black !important; 
+   font-weight: 800;
+   z-index: 10;
+   
+
  }
 
 /* -------------- header --------------- */
@@ -84,6 +89,7 @@ p {
   background-size: cover;
   display: flex;
   flex-direction: column;
+  
 
 
 }
@@ -126,8 +132,8 @@ letter-spacing: .8em;
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
-  font-weight: 800;
-  letter-spacing: .02em;
+  font-weight: bold;
+  letter-spacing: .05   em;
   margin: 4px 2px;
 }
 
@@ -205,6 +211,7 @@ padding: 30px;
 text-align: center;
 font-weight: bold;
 letter-spacing: .2 em;
+position: relative;
 }
 
 
@@ -217,11 +224,12 @@ letter-spacing: .2 em;
   display: flex;
   align-items: center;
   justify-content: center;
- 
+  position: relative;
 }
 
 .about p{
   color: white;
+  
 }
 
 .about_wrapper {
@@ -231,6 +239,7 @@ letter-spacing: .2 em;
   display: flex;
   border-radius: 90px;
   padding: 45px;
+ 
 }
 
 .about_wrapper_2 {
@@ -323,9 +332,10 @@ letter-spacing: .2 em;
 
 footer p {
 font-weight: 800;
-font-size: 50px;
+font-size: 75px;
 letter-spacing: .2;
-align-content:center;
+text-align: center;
+padding-bottom: 45px;
 color: #EF3B3E;
 }
 
