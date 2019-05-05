@@ -26,6 +26,7 @@ border: 5px solid red;
 
 body {
   font-family: Barlow ;
+
   
 }
 html {
@@ -35,7 +36,7 @@ html {
 
 p {
   line-height: 20px;
-
+ 
   font-weight: medium; 
   letter-spacing: 1.1px;
   margin-bottom: 10px; 
@@ -56,6 +57,12 @@ p {
    color: white;
    padding-bottom: 20px;
    letter-spacing: 2px;
+ }
+
+ .buttontop {
+   position: fixed;
+   bottom: 8%;
+   right: 8%;
  }
 
 /* -------------- header --------------- */
