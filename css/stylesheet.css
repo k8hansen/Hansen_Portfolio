@@ -10,7 +10,7 @@ input,
 div {
   margin: 0;
   padding: 0;
-  font-family: 'Barlow', sans-serif;
+  
 }
 
 /*
@@ -23,6 +23,11 @@ font-family: 'Josefin Sans', sans-serif;
 border: 5px solid red;
 */
 
+
+body {
+  font-family: Barlow ;
+  
+}
 html {
   scroll-behavior: smooth;
   box-sizing: border-box;
@@ -30,7 +35,7 @@ html {
 
 p {
   line-height: 20px;
-  font-family: 'Barlow', sans-serif;
+
   font-weight: medium; 
   letter-spacing: 1.1px;
   margin-bottom: 10px; 
@@ -39,7 +44,7 @@ p {
  
  h1 {
    color: black;
-   font-family: 'Lato', sans-serif;
+   
    font-weight: bold;
    vertical-align: middle;
    color:  #3300ff;
@@ -63,7 +68,6 @@ p {
 }
 
 .header {
-  font-family: 'Barlow', sans-serif;
   color: black;
   background-color: white;
   min-height: 100vh;
@@ -74,7 +78,7 @@ p {
   display: flex;
   flex-direction: column;
 
- 
+
 }
 
 .name_kate {
@@ -88,7 +92,6 @@ padding-left: 45px;
 }
 
 .name_title {
-  font-family: 'Barlow', sans-serif;
   font-size: 45px;
   letter-spacing: .2em;
   color: #3300ff;
@@ -208,7 +211,6 @@ letter-spacing: .2 em;
   align-items: center;
   justify-content: center;
  
- 
 }
 
 .about p{
@@ -236,11 +238,7 @@ letter-spacing: .2 em;
   padding-right: 20px;
 }
 
-/* -------------- skills --------------- */
-.projects {
-  background-color: #EF3B3E;
-  min-height: 100vh;
-}
+/* --------------  --------------- */
 
 .skills {
   list-style: none;
@@ -280,12 +278,17 @@ letter-spacing: .2 em;
 .artwork{
   background-color: #FFE0BD;
   min-height: 100vh;
+
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* -------------- contact info  --------------- */
-.contact{
-  background-color: #FFE0BD;
-  min-height: 100vh;
+.social-icons {
+  background-color: white;
+  min-height: 50vh;
 }
 
 .social-icons {
@@ -311,9 +314,56 @@ letter-spacing: .2 em;
   cursor: pointer;
 }
 
+footer p {
+font-weight: 800;
+font-size: 50px;
+letter-spacing: .2;
+align-content:center;
+color: #EF3B3E;
+}
 
+/* ---------IMAGE GALLERY WEB SAMPLES ---------*/
 
+.projects {
+  background-color: #EF3B3E;
+  min-height: 100vh;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.projects_wrapper {
+  min-height: 80%;
+  border: 10px solid white;
+  border-radius: 90px;
+  padding: 45px;
+}
 
+figure{
+  width: 200px;
+  flex-shrink: 0;
+}
+figure img{
+  width: 100%;
+}
+figure figcaption{
+  padding-top: 14px;
+  font-weight: semi-bold;
+  letter-spacing: .1em;
+  text-align: left;
+  font-size: 14px;
+  color: white;
+}
 
-
+.figcaption2 {
+  text-align: left;
+  font-size: 14px;
+  padding-top: 14px;
+  color: white;
+}
+.gallery{
+  display: flex;
+  justify-content: space-between;
+  /*flex-wrap: wrap;*/
+}
