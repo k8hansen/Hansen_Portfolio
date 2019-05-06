@@ -27,6 +27,7 @@ border: 5px solid red;
 body {
   font-family: Barlow;
   font-size: 16px;
+  
 }
 html {
   scroll-behavior: smooth;
@@ -225,7 +226,6 @@ position: relative;
 .about_wrapper {
   min-height: 80%;
   border: 10px solid white;
-  text-align: center;
   display: flex;
   border-radius: 90px;
   padding: 45px;
