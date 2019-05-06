@@ -225,7 +225,7 @@ position: relative;
 .about_wrapper {
   min-height: 80%;
   border: 10px solid white;
-  align: center;
+  text-align: center;
   display: flex;
   border-radius: 90px;
   padding: 45px;
@@ -363,12 +363,23 @@ figure img{
   width: 400px;
   flex-shrink: 0;
 }
-figure figcaption{
+figure {
   padding-top: 14px;
   font-weight: semi-bold;
   letter-spacing: .1em;
   text-align: left;
-  font-size: 14px;
+  /*font-size: 14px;*/
+  color: white;
+    
+}
+
+
+figcaption{
+  padding-top: 14px;
+  font-weight: semi-bold;
+  letter-spacing: .1em;
+  text-align: left;
+  /*font-size: 14px;*/
   color: white;
 }
 
