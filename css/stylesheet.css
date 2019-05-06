@@ -299,18 +299,32 @@ position: relative;
 
 .social-icons {
   text-align: center;
+  padding-top: 60px;
+ 
 }
 
 .social-icons ul{
   list-style: none;
+    
   
 }
 .social-icons li {
-  display: inline-block;
+ display: inline-block;
   max-width: 10px;
-  font-size: 1px;
-  margin: 50px;
- 
+  margin-left: 50px;
+    margin-right: 50px;
+}
+
+.social-icons i{
+    font-size: 60px;
+    padding-right: 40px;
+    
+        
+}
+
+.social-icons i:hover{
+    font-size: 60px;
+    padding-right: 40px;       
 }
 
 .social-icons li:hover {
@@ -322,13 +336,29 @@ position: relative;
 }
 
 footer p {
-font-weight: 800;
+font-weight: 200;
 font-size: 75px;
 letter-spacing: .2;
 text-align: center;
 padding-bottom: 45px;
 color: #EF3B3E;
 }
+
+.far:hover{
+    color: #EF3B3E;
+}
+
+.far:visited{
+    color: dimgray;
+}
+.fab:hover {
+    color: #EF3B3E;
+}
+
+.fab:visited {
+    color:dimgrey;
+}
+
 
 /* ---------IMAGE GALLERY WEB SAMPLES ---------*/
 
