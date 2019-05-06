@@ -187,7 +187,86 @@ letter-spacing: .8em;
   width: 11%;
 }
 
+/* ----------- Buttons Media Queries 
 
+@media (max-width:1000px) {
+    
+.button {
+  background-color: transparent;
+  background-repeat:no-repeat;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: .05em;
+  margin: 4px 2px;
+}
+
+.button:hover {
+  background-color: black;
+  border-radius: 90px;
+  border: 6px solid  #3300ff;
+  color: white;
+  -webkit-transition-duration: 0.4s; /* Safari */
+
+/*
+
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button_wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 6px;
+  width: 100%;
+}
+
+.button1 {
+  border-radius: 90px;
+  border: 6px solid black;
+  color: black;
+  font-weight: semi-bold;
+  width: 11%;
+ 
+}
+
+.button2 {
+  border-radius: 90px;
+  border: 6px solid black;
+  color: black;
+  font-weight: semi-bold;
+  width: 11%;
+}
+
+.button3 {
+  border-radius: 90px;
+  border: 6px solid black;
+  color: black;
+  font-weight: semi-bold;
+  width: 11%;
+}
+
+.button4 {
+  border-radius: 90px;
+  border: 6px solid black;
+  color: black;
+  font-weight: semi-bold;
+  width: 11%;
+}
+.button5 {
+  border-radius: 90px;
+  border: 6px solid black;
+  color: black;
+  font-weight: semi-bold;
+  width: 11%;
+}
+    
+}
+
+*/
 
 /* -------------- intro --------------- */
 
