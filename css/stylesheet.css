@@ -25,9 +25,8 @@ border: 5px solid red;
 
 
 body {
-  font-family: Barlow ;
-
-  
+  font-family: Barlow;
+  font-size: 16px;
 }
 html {
   scroll-behavior: smooth;
@@ -36,21 +35,19 @@ html {
 
 p {
   line-height: 20px;
- 
   font-weight: medium; 
   letter-spacing: 1.1px;
   margin-bottom: 10px; 
+  font-size: 16px;
      
  }
  
  h1 {
    color: black;
-   
    font-weight: bold;
    vertical-align: middle;
    color:  #3300ff;
    letter-spacing: 1.5px;
-
  }
 
  h2 {
@@ -76,7 +73,6 @@ p {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  
 }
 
 .header {
@@ -89,9 +85,6 @@ p {
   background-size: cover;
   display: flex;
   flex-direction: column;
-  
-
-
 }
 
 .name_kate {
@@ -117,7 +110,6 @@ padding-left: 45px;
 top: 50%;
 left: 50%;
 letter-spacing: .8em;
-
 }
 
 
@@ -133,7 +125,7 @@ letter-spacing: .8em;
   display: inline-block;
   font-size: 20px;
   font-weight: bold;
-  letter-spacing: .05   em;
+  letter-spacing: .05em;
   margin: 4px 2px;
 }
 
@@ -203,7 +195,6 @@ letter-spacing: .8em;
 .intro {
   vertical-align: top;
   height: 100vh;
-
 }
 
 .intro_wrapper {
@@ -229,7 +220,6 @@ position: relative;
 
 .about p{
   color: white;
-  
 }
 
 .about_wrapper {
