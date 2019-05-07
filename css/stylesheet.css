@@ -131,9 +131,9 @@ letter-spacing: .8em;
 }
 
 .button:hover {
-  background-color: black;
+  background-color: #DFDFDD;
   border-radius: 90px;
-  border: 6px solid  #3300ff;
+  border: 6px solid  #ffac82;
   color: white;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
@@ -427,14 +427,14 @@ color: #EF3B3E;
     color: #EF3B3E;
 }
 
-.far:visited{
+a:visited .far{
     color: dimgray;
 }
 .fab:hover {
     color: #EF3B3E;
 }
 
-.fab:visited {
+a:visited .fab {
     color:dimgrey;
 }
 
@@ -442,7 +442,7 @@ color: #EF3B3E;
 /* ---------IMAGE GALLERY WEB SAMPLES ---------*/
 
 .projects {
-  background-color: #EF3B3E;
+  background-color: #ffac82;
   min-height: 100vh;
   padding: 25px;
   display: flex;
