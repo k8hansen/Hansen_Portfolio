@@ -54,19 +54,23 @@ p {
  h2 {
    color: white;
    padding-bottom: 20px;
-   letter-spacing: 2px;
+   letter-spacing: 2.5px;
+   font-size: 20px;
  }
 
  .buttontop {
    position: fixed;
+   font-size: 40px;
    bottom: 10%;
    right: 10%;
    color: black !important; 
    font-weight: 800;
    z-index: 10;
-   
-
  }
+
+.buttontop i:hover{
+    color: #EF3B3E;
+}
 
 /* -------------- header --------------- */
 
@@ -91,7 +95,7 @@ p {
 .name_kate {
 padding-top: 15px;
 font-size: 45px;
-letter-spacing: .2em;
+letter-spacing: .3em;
 color:#3300ff;
 font-weight: 100; 
 padding-left: 45px;
@@ -100,7 +104,7 @@ padding-left: 45px;
 
 .name_title {
   font-size: 45px;
-  letter-spacing: .2em;
+  letter-spacing: .3em;
   color: #3300ff;
   font-weight: 100;
   padding-top: 15px;
@@ -128,22 +132,36 @@ letter-spacing: .8em;
   font-weight: bold;
   letter-spacing: .05em;
   margin: 4px 2px;
+<<<<<<< HEAD
   border-radius: 90px;
   border: 6px solid black;
   color: black;
   font-weight: semi-bold;
   width: 11%;
+||||||| merged common ancestors
+=======
+  border-radius: 90px;
+  border: 6px solid black;
+  color: black;
+  width: 11%;
+>>>>>>> mediaqueries
 }
 
 .button:hover {
-  background-color: black;
+  background-color: #DFDFDD;
   border-radius: 90px;
-  border: 6px solid  #3300ff;
+  border: 6px solid  #ffac82;
   color: white;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
 }
+
+/*
+.button:visited {
+  color:#ffac82;
+}
+*/
 
 .button_wrapper {
   display: flex;
@@ -152,7 +170,51 @@ letter-spacing: .8em;
   width: 100%;
 }
 
+<<<<<<< HEAD
 
+||||||| merged common ancestors
+.button1 {
+  border-radius: 90px;
+  border: 6px solid black;
+  color: black;
+  font-weight: semi-bold;
+  width: 11%;
+ 
+}
+
+.button2 {
+  border-radius: 90px;
+  border: 6px solid black;
+  color: black;
+  font-weight: semi-bold;
+  width: 11%;
+}
+
+.button3 {
+  border-radius: 90px;
+  border: 6px solid black;
+  color: black;
+  font-weight: semi-bold;
+  width: 11%;
+}
+
+.button4 {
+  border-radius: 90px;
+  border: 6px solid black;
+  color: black;
+  font-weight: semi-bold;
+  width: 11%;
+}
+.button5 {
+  border-radius: 90px;
+  border: 6px solid black;
+  color: black;
+  font-weight: semi-bold;
+  width: 11%;
+}
+
+=======
+>>>>>>> mediaqueries
 /* ----------- Buttons Media Queries 
 
 @media (max-width:1000px) {
@@ -393,14 +455,14 @@ color: #EF3B3E;
     color: #EF3B3E;
 }
 
-.far:visited{
+a:visited .far{
     color: dimgray;
 }
 .fab:hover {
     color: #EF3B3E;
 }
 
-.fab:visited {
+a:visited .fab {
     color:dimgrey;
 }
 
@@ -408,7 +470,7 @@ color: #EF3B3E;
 /* ---------IMAGE GALLERY WEB SAMPLES ---------*/
 
 .projects {
-  background-color: #EF3B3E;
+  background-color: #ffac82;
   min-height: 100vh;
   padding: 25px;
   display: flex;
@@ -485,6 +547,13 @@ figcaption{
   justify-content: space-between;
   /*flex-wrap: wrap;*/
 }
+
+.gallerytitle {
+    padding-left: 5%;
+    font-size: 25px;
+}
+
+
 
 .copyright {
   padding-top: 25px;
