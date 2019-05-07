@@ -132,15 +132,11 @@ letter-spacing: .8em;
   font-weight: bold;
   letter-spacing: .05em;
   margin: 4px 2px;
-<<<<<<< HEAD
   border-radius: 90px;
   border: 6px solid black;
   color: black;
   font-weight: semi-bold;
   width: 11%;
-||||||| merged common ancestors
-=======
->>>>>>> mediaqueries
 }
 
 .button:hover {
