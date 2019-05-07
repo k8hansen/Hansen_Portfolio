@@ -128,6 +128,11 @@ letter-spacing: .8em;
   font-weight: bold;
   letter-spacing: .05em;
   margin: 4px 2px;
+  border-radius: 90px;
+  border: 6px solid black;
+  color: black;
+  font-weight: semi-bold;
+  width: 11%;
 }
 
 .button:hover {
@@ -147,45 +152,6 @@ letter-spacing: .8em;
   width: 100%;
 }
 
-.button1 {
-  border-radius: 90px;
-  border: 6px solid black;
-  color: black;
-  font-weight: semi-bold;
-  width: 11%;
- 
-}
-
-.button2 {
-  border-radius: 90px;
-  border: 6px solid black;
-  color: black;
-  font-weight: semi-bold;
-  width: 11%;
-}
-
-.button3 {
-  border-radius: 90px;
-  border: 6px solid black;
-  color: black;
-  font-weight: semi-bold;
-  width: 11%;
-}
-
-.button4 {
-  border-radius: 90px;
-  border: 6px solid black;
-  color: black;
-  font-weight: semi-bold;
-  width: 11%;
-}
-.button5 {
-  border-radius: 90px;
-  border: 6px solid black;
-  color: black;
-  font-weight: semi-bold;
-  width: 11%;
-}
 
 /* ----------- Buttons Media Queries 
 
